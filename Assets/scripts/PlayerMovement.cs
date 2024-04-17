@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private BoxCollider2D col;
     [SerializeField] private LayerMask jumpableGround;
     private SpriteRenderer sprite;
     private Animator anim;
-    private float DirX = 0f;
-    [SerializeField] private float MoveSpeed = 7f;
-    [SerializeField] private float JumpSpeed = 14f;
+    public float DirX = 0f;
+    [SerializeField] public float MoveSpeed = 7f;
+    [SerializeField] public float JumpSpeed = 14f;
     public GameObject pauseMenuScreen;
 
     private enum movementState { idle, run, jump, fall }
@@ -30,18 +30,30 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
+    public void Update()
     {
         DirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2 (DirX * MoveSpeed, rb.velocity.y);
+        rb.velocity = new Vector2(DirX * MoveSpeed, rb.velocity.y);
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-           rb.velocity = new Vector2(rb.velocity.x, JumpSpeed);
+            rb.velocity = new Vector2(rb.velocity.x, JumpSpeed);
         }
 
         MovementAnimation();
     }
-    private void MovementAnimation()
+    public void Move()
+    {
+        DirX = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(DirX * MoveSpeed, rb.velocity.y);
+    }
+    public void Jump() 
+    {
+        if (Input.GetButtonDown("Jump") && IsGrounded())
+        {
+            rb.velocity = new Vector2(rb.velocity.x, JumpSpeed);
+        }
+    }
+    public void MovementAnimation()
     {
         movementState state;
         if (DirX > 0f)
@@ -68,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
         }
         anim.SetInteger("state", (int)state);
     }
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
         return Physics2D.BoxCast(col.bounds.center, col.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }

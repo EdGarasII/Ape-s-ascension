@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>2024-04-17 - 16:20:51</Generatedon>
+    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Assemblies>4</Assemblies>
+    <Classes>16</Classes>
+    <Files>14</Files>
+    <Coveredlines>145</Coveredlines>
+    <Uncoveredlines>396</Uncoveredlines>
+    <Coverablelines>541</Coverablelines>
+    <Totallines>1128</Totallines>
+    <Linecoverage>26.8</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>29</Coveredmethods>
+    <Totalmethods>64</Totalmethods>
+    <Methodcoverage>45.3</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="Assembly-CSharp" classes="6" coverage="0" coveredlines="0" coverablelines="307" totallines="617" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="23" methodcoverage="0">
+      <Class name="CharacterController_2D" coverage="0" coveredlines="0" coverablelines="89" totallines="194" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="6" methodcoverage="0" />
+      <Class name="ColliderEvent_Sender" coverage="0" coveredlines="0" coverablelines="13" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+      <Class name="Demo_GM" coverage="0" coveredlines="0" coverablelines="97" totallines="175" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
+      <Class name="DestroyEffect" coverage="0" coveredlines="0" coverablelines="8" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
+      <Class name="Free_GM" coverage="0" coveredlines="0" coverablelines="83" totallines="152" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
+      <Class name="WoodDoll_Mgr" coverage="0" coveredlines="0" coverablelines="17" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
+    </Assembly>
+    <Assembly name="EditMode" classes="1" coverage="0" coveredlines="0" coverablelines="14" totallines="44" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0">
+      <Class name="Direction" coverage="0" coveredlines="0" coverablelines="14" totallines="44" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+    </Assembly>
+    <Assembly name="NewAssembly" classes="6" coverage="47.8" coveredlines="55" coverablelines="115" totallines="218" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="14" totalmethods="24" methodcoverage="58.3">
+      <Class name="CameraControl" coverage="100" coveredlines="5" coverablelines="5" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="GameController" coverage="62.8" coveredlines="22" coverablelines="35" totallines="62" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="9" methodcoverage="77.7" />
+      <Class name="Pause" coverage="0" coveredlines="0" coverablelines="3" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="PlayerMovement" coverage="42.4" coveredlines="28" coverablelines="66" totallines="101" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="10" methodcoverage="50" />
+      <Class name="QuitMenu" coverage="0" coveredlines="0" coverablelines="3" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="StartMenu" coverage="0" coveredlines="0" coverablelines="3" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+    </Assembly>
+    <Assembly name="PlayMode" classes="3" coverage="85.7" coveredlines="90" coverablelines="105" totallines="747" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="15" totalmethods="15" methodcoverage="100">
+      <Class name="AnimationTests" coverage="100" coveredlines="24" coverablelines="24" totallines="249" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
+      <Class name="GameControllerTests" coverage="93.1" coveredlines="27" coverablelines="29" totallines="249" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="MovementAnimationTestObject" coverage="75" coveredlines="39" coverablelines="52" totallines="249" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="7" methodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>
