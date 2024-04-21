@@ -190,9 +190,9 @@ public class MovementAnimationTestObject
         [UnityTest]
         public IEnumerator MoveLeft()
         {
-            //playerObject = GameObject.FindGameObjectWithTag("Player");
-            //rb = playerObject.GetComponent<Rigidbody2D>();
-            //playerController = playerObject.AddComponent<PlayerMovement>();
+            playerObject = GameObject.FindGameObjectWithTag("Player");
+            rb = playerObject.GetComponent<Rigidbody2D>();
+            playerController = playerObject.AddComponent<PlayerMovement>();
             // Arrange
             float moveSpeed = 7f; // Set the move speed
             playerController.rb = playerObject.AddComponent<Rigidbody2D>();
@@ -210,9 +210,9 @@ public class MovementAnimationTestObject
         [UnityTest]
         public IEnumerator MoveRight()
         {
-            //playerObject = GameObject.FindGameObjectWithTag("Player");
-            //rb = playerObject.GetComponent<Rigidbody2D>();
-            //playerController = playerObject.AddComponent<PlayerMovement>();
+            playerObject = GameObject.FindGameObjectWithTag("Player");
+            rb = playerObject.GetComponent<Rigidbody2D>();
+            playerController = playerObject.AddComponent<PlayerMovement>();
             // Arrange
             float moveSpeed = 7f; // Set the move speed
             playerController.rb = playerObject.AddComponent<Rigidbody2D>();

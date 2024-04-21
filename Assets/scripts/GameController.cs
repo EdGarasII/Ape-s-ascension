@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class GameController : MonoBehaviour
     public GameObject fallDetector;
     public SpriteRenderer spriteRenderer;
     public GameObject pauseMenuScreen;
+
+    public Text scoreText;
+    public HealthBar healthBar;
     // Start is called before the first frame update
     public void Awake()
     {
@@ -17,6 +21,7 @@ public class GameController : MonoBehaviour
     public void Start()
     {
         startPoz = transform.position;
+        scoreText.text = "Score: " + Scoring.totalScore;
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -25,7 +30,20 @@ public class GameController : MonoBehaviour
         {
             Die();
         }
+     else if(collision.tag == "banana")
+        {
+            Scoring.totalScore++;
+            scoreText.text = "Score: " + Scoring.totalScore;
+            collision.gameObject.SetActive(false);
+        }
         
+    }
+    public void OnTriggerStay2D(Collider2D collision)
+    {
+        if(collision.tag == "trap")
+        {
+            healthBar.Damage(0.003f);
+        }
     }
     public void Die()
     {
@@ -58,5 +76,6 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene("StartScene");
     }
+    
 
 }

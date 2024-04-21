@@ -84,18 +84,5 @@ public class PlayerMovement : MonoBehaviour
     {
         return Physics2D.BoxCast(col.bounds.center, col.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }
-    public void pauseGame()
-    {
-        Time.timeScale = 0;
-        pauseMenuScreen.SetActive(true);
-    }
-    public void ResumeGame()
-    {
-        Time.timeScale = 1;
-        pauseMenuScreen.SetActive(false);
-    }
-    public void GoToHome()
-    {
-        SceneManager.LoadScene("Menu");
-    }
+    
 }
