@@ -32,13 +32,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        DirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(DirX * MoveSpeed, rb.velocity.y);
-        if (Input.GetButtonDown("Jump") && IsGrounded())
-        {
-            rb.velocity = new Vector2(rb.velocity.x, JumpSpeed);
-        }
-
+        Move();
+        Jump();
         MovementAnimation();
     }
     public void Move()
@@ -46,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
         DirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(DirX * MoveSpeed, rb.velocity.y);
     }
+    
     public void Jump() 
     {
         if (Input.GetButtonDown("Jump") && IsGrounded())

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public Vector2 startPoz;
+    public Vector2 checkPointPos;
     public GameObject fallDetector;
     public SpriteRenderer spriteRenderer;
     public GameObject pauseMenuScreen;
@@ -20,8 +20,12 @@ public class GameController : MonoBehaviour
     }
     public void Start()
     {
-        startPoz = transform.position;
+        checkPointPos = transform.position;
         scoreText.text = "Score: " + Scoring.totalScore;
+    }
+    public void UpdateCheckPoint(Vector2 pos)
+    {
+        checkPointPos = pos;
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -53,7 +57,7 @@ public class GameController : MonoBehaviour
     {
         spriteRenderer.enabled = false;
         yield return new WaitForSeconds(delay);
-        transform.position = startPoz;
+        transform.position = checkPointPos;
         spriteRenderer.enabled = true;
     }
     // Update is called once per frame

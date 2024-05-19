@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2024-04-24_18-50-26" tag="">
+  <assembly name="Assembly-CSharp">
+    <class name="CharacterController_2D" coveredlines="0" coverablelines="89" totallines="194" coveredbranches="0" totalbranches="0" />
+    <class name="ColliderEvent_Sender" coveredlines="0" coverablelines="13" totallines="30" coveredbranches="0" totalbranches="0" />
+    <class name="Demo_GM" coveredlines="0" coverablelines="97" totallines="175" coveredbranches="0" totalbranches="0" />
+    <class name="DestroyEffect" coveredlines="0" coverablelines="8" totallines="21" coveredbranches="0" totalbranches="0" />
+    <class name="Free_GM" coveredlines="0" coverablelines="83" totallines="152" coveredbranches="0" totalbranches="0" />
+    <class name="GameController" coveredlines="0" coverablelines="35" totallines="62" coveredbranches="0" totalbranches="0" />
+    <class name="MovingTraps" coveredlines="18" coverablelines="33" totallines="53" coveredbranches="0" totalbranches="0" />
+    <class name="WoodDoll_Mgr" coveredlines="0" coverablelines="17" totallines="45" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="EditMode">
+    <class name="Direction" coveredlines="0" coverablelines="14" totallines="44" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NewAssembly">
+    <class name="CameraControl" coveredlines="5" coverablelines="5" totallines="19" coveredbranches="0" totalbranches="0" />
+    <class name="GameController" coveredlines="23" coverablelines="48" totallines="81" coveredbranches="0" totalbranches="0" />
+    <class name="Health" coveredlines="1" coverablelines="1" totallines="8" coveredbranches="0" totalbranches="0" />
+    <class name="HealthBar" coveredlines="10" coverablelines="39" totallines="56" coveredbranches="0" totalbranches="0" />
+    <class name="Pause" coveredlines="0" coverablelines="3" totallines="12" coveredbranches="0" totalbranches="0" />
+    <class name="PlayerMovement" coveredlines="31" coverablelines="51" totallines="83" coveredbranches="0" totalbranches="0" />
+    <class name="QuitMenu" coveredlines="0" coverablelines="3" totallines="12" coveredbranches="0" totalbranches="0" />
+    <class name="StartMenu" coveredlines="0" coverablelines="6" totallines="16" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="PlayMode">
+    <class name="AnimationTests" coveredlines="24" coverablelines="24" totallines="249" coveredbranches="0" totalbranches="0" />
+    <class name="GameControllerTests" coveredlines="27" coverablelines="29" totallines="249" coveredbranches="0" totalbranches="0" />
+    <class name="MovementAnimationTestObject" coveredlines="50" coverablelines="57" totallines="249" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>

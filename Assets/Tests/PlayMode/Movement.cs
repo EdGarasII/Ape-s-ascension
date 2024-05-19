@@ -18,7 +18,7 @@ public class GameControllerTests
         GameController gameController = gameControllerObject.AddComponent<GameController>();
 
         // Set up initial position
-        gameController.startPoz = Vector2.zero;
+        gameController.checkPointPos = Vector2.zero;
 
         // Set up coroutine delay
         float delay = 0.5f;
@@ -183,9 +183,9 @@ public class MovementAnimationTestObject
             SceneManager.LoadScene("game");
 
             //Find the player GameObject in the scene
-            playerObject = GameObject.FindGameObjectWithTag("Player");
-            rb = playerObject.GetComponent<Rigidbody2D>();            
-            playerController = playerObject.AddComponent<PlayerMovement>();
+            //playerObject = GameObject.FindGameObjectWithTag("Player");
+            //rb = playerObject.GetComponent<Rigidbody2D>();            
+            //playerController = playerObject.AddComponent<PlayerMovement>();
         }
         [UnityTest]
         public IEnumerator MoveLeft()
@@ -194,11 +194,9 @@ public class MovementAnimationTestObject
             rb = playerObject.GetComponent<Rigidbody2D>();
             playerController = playerObject.AddComponent<PlayerMovement>();
             // Arrange
-            float moveSpeed = 7f; // Set the move speed
-            playerController.rb = playerObject.AddComponent<Rigidbody2D>();
+            float moveSpeed = 7f; // Set the move speed           
 
             playerController.DirX = -1;
-            // Act
             playerController.Move();
 
             // Wait for one frame to simulate physics update
@@ -214,10 +212,8 @@ public class MovementAnimationTestObject
             rb = playerObject.GetComponent<Rigidbody2D>();
             playerController = playerObject.AddComponent<PlayerMovement>();
             // Arrange
-            float moveSpeed = 7f; // Set the move speed
-            playerController.rb = playerObject.AddComponent<Rigidbody2D>();
+            float moveSpeed = 7f; // Set the move speed            
             playerController.DirX = 1;
-            // Act
             playerController.Move();
 
             // Wait for one frame to simulate physics update

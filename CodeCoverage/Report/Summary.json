@@ -1,42 +1,46 @@
 {
   "summary": {
-    "generatedon": "2024-04-17T13:20:51Z",
-    "parser": "MultiReportParser (2x OpenCoverParser)",
+    "generatedon": "2024-04-25T08:44:47Z",
+    "parser": "MultiReportParser (3x OpenCoverParser)",
     "assemblies": 4,
-    "classes": 16,
-    "files": 14,
-    "coveredlines": 145,
-    "uncoveredlines": 396,
-    "coverablelines": 541,
-    "totallines": 1128,
-    "linecoverage": 26.8,
+    "classes": 20,
+    "files": 18,
+    "coveredlines": 183,
+    "uncoveredlines": 476,
+    "coverablelines": 659,
+    "totallines": 1309,
+    "linecoverage": 27.7,
     "coveredbranches": 0,
     "totalbranches": 0,
-    "coveredmethods": 29,
-    "totalmethods": 64,
-    "methodcoverage": 45.3
+    "coveredmethods": 39,
+    "totalmethods": 84,
+    "methodcoverage": 46.4
  },
   "coverage": {
     "assemblies": [
-      { "name": "Assembly-CSharp", "classes": 6, "coverage": 0, "coveredlines": 0, "coverablelines": 307, "totallines": 617, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 23, "classesinassembly": [
+      { "name": "Assembly-CSharp", "classes": 8, "coverage": 4.8, "coveredlines": 18, "coverablelines": 375, "totallines": 732, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 10.8, "coveredmethods": 4, "totalmethods": 37, "classesinassembly": [
         { "name": "CharacterController_2D", "coverage": 0, "coveredlines": 0, "coverablelines": 89, "totallines": 194, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 6 },
         { "name": "ColliderEvent_Sender", "coverage": 0, "coveredlines": 0, "coverablelines": 13, "totallines": 30, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 2 },
         { "name": "Demo_GM", "coverage": 0, "coveredlines": 0, "coverablelines": 97, "totallines": 175, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 4 },
         { "name": "DestroyEffect", "coverage": 0, "coveredlines": 0, "coverablelines": 8, "totallines": 21, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 3 },
         { "name": "Free_GM", "coverage": 0, "coveredlines": 0, "coverablelines": 83, "totallines": 152, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 4 },
+        { "name": "GameController", "coverage": 0, "coveredlines": 0, "coverablelines": 35, "totallines": 62, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 9 },
+        { "name": "MovingTraps", "coverage": 54.5, "coveredlines": 18, "coverablelines": 33, "totallines": 53, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 80, "coveredmethods": 4, "totalmethods": 5 },
         { "name": "WoodDoll_Mgr", "coverage": 0, "coveredlines": 0, "coverablelines": 17, "totallines": 45, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 4 } ] },
       { "name": "EditMode", "classes": 1, "coverage": 0, "coveredlines": 0, "coverablelines": 14, "totallines": 44, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 2, "classesinassembly": [
         { "name": "Direction", "coverage": 0, "coveredlines": 0, "coverablelines": 14, "totallines": 44, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 2 } ] },
-      { "name": "NewAssembly", "classes": 6, "coverage": 47.8, "coveredlines": 55, "coverablelines": 115, "totallines": 218, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 58.3, "coveredmethods": 14, "totalmethods": 24, "classesinassembly": [
+      { "name": "NewAssembly", "classes": 8, "coverage": 43.4, "coveredlines": 70, "coverablelines": 161, "totallines": 288, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 66.6, "coveredmethods": 20, "totalmethods": 30, "classesinassembly": [
         { "name": "CameraControl", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 19, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
-        { "name": "GameController", "coverage": 62.8, "coveredlines": 22, "coverablelines": 35, "totallines": 62, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 77.7, "coveredmethods": 7, "totalmethods": 9 },
+        { "name": "GameController", "coverage": 47.9, "coveredlines": 23, "coverablelines": 48, "totallines": 81, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 70, "coveredmethods": 7, "totalmethods": 10 },
+        { "name": "Health", "coverage": 100, "coveredlines": 1, "coverablelines": 1, "totallines": 8, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "HealthBar", "coverage": 25.6, "coveredlines": 10, "coverablelines": 39, "totallines": 56, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 66.6, "coveredmethods": 2, "totalmethods": 3 },
         { "name": "Pause", "coverage": 0, "coveredlines": 0, "coverablelines": 3, "totallines": 12, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 1 },
-        { "name": "PlayerMovement", "coverage": 42.4, "coveredlines": 28, "coverablelines": 66, "totallines": 101, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 50, "coveredmethods": 5, "totalmethods": 10 },
+        { "name": "PlayerMovement", "coverage": 55.3, "coveredlines": 31, "coverablelines": 56, "totallines": 84, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 80, "coveredmethods": 8, "totalmethods": 10 },
         { "name": "QuitMenu", "coverage": 0, "coveredlines": 0, "coverablelines": 3, "totallines": 12, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 1 },
-        { "name": "StartMenu", "coverage": 0, "coveredlines": 0, "coverablelines": 3, "totallines": 12, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 1 } ] },
-      { "name": "PlayMode", "classes": 3, "coverage": 85.7, "coveredlines": 90, "coverablelines": 105, "totallines": 747, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 15, "totalmethods": 15, "classesinassembly": [
-        { "name": "AnimationTests", "coverage": 100, "coveredlines": 24, "coverablelines": 24, "totallines": 249, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 5, "totalmethods": 5 },
-        { "name": "GameControllerTests", "coverage": 93.1, "coveredlines": 27, "coverablelines": 29, "totallines": 249, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
-        { "name": "MovementAnimationTestObject", "coverage": 75, "coveredlines": 39, "coverablelines": 52, "totallines": 249, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 7, "totalmethods": 7 } ] } ]
+        { "name": "StartMenu", "coverage": 0, "coveredlines": 0, "coverablelines": 6, "totallines": 16, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 2 } ] },
+      { "name": "PlayMode", "classes": 3, "coverage": 87.1, "coveredlines": 95, "coverablelines": 109, "totallines": 735, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 15, "totalmethods": 15, "classesinassembly": [
+        { "name": "AnimationTests", "coverage": 100, "coveredlines": 24, "coverablelines": 24, "totallines": 245, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 5, "totalmethods": 5 },
+        { "name": "GameControllerTests", "coverage": 93.1, "coveredlines": 27, "coverablelines": 29, "totallines": 245, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
+        { "name": "MovementAnimationTestObject", "coverage": 78.5, "coveredlines": 44, "coverablelines": 56, "totallines": 245, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 7, "totalmethods": 7 } ] } ]
   }
 }

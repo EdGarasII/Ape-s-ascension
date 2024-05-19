@@ -7,6 +7,6 @@ public class QuitMenu : MonoBehaviour
 {
     public void quitGame()
     {
-        Application.Quit();
+        SceneManager.LoadScene("StartScene");
     }
 }
