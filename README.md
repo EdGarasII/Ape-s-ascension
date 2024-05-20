@@ -7,6 +7,8 @@ We had a task to develop a product using a development process type agile. Agile
 You can install the project by downloading it from this github repository, to run the game you open the downloaded file.
 ## How to Use the Project
 When you open the project you will be presented with a main menu. Pressing the button PLAY will start the game. Pressing the button SETTINGS will allow you to adjust various settings. Pressing the button EXIT will exit the game. After starting the game you can move around using A and D keys on your keyboard(by default). To jump up to platforms use SPACE BAR on your keyboard. If you want to drop down from a platform, you can do that by pressing S on the keyboard. When you start a game, your character has a health bar that is displayed above their head. Getting hit by traps makes your health go down. When you health meter reaches 0% your character will respawn at the last checkpoint. While travelling through levels you may find some collectables. Once picked up they will be displayed on the screen. Pressing ESC key on your keyboard will pause your game and bring up the main menu.
+## Retrospective
+Motivation, time
 ## Testing
 To test the project we did some Unit testing to make sure the code was working as intended.
 ## Credits
