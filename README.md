@@ -10,5 +10,5 @@ When you open the project you will be presented with a main menu. Pressing the b
 ## Testing
 To test the project we did some Unit testing to make sure the code was working as intended.
 ## Credits
-This project was developed by KTU's 2nd year students:
+This project was developed by KTU's 2nd year student:
 Edgaras Berzanskas IFF-2/2
