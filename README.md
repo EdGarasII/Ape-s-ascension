@@ -12,4 +12,3 @@ To test the project we did some Unit testing to make sure the code was working a
 ## Credits
 This project was developed by KTU's 2nd year students:
 Edgaras Berzanskas IFF-2/2
-Arvydas Gecas IFF-2/2
